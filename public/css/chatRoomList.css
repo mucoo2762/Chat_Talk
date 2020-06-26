@@ -1,0 +1,81 @@
+body{
+    height: 100vh;
+    margin: 0px;
+}
+nav{
+    display: flex;
+    padding: 20px;
+    font-size: 25px;
+    color: white;
+}
+nav > span{
+    width: 100%;
+}
+nav > button{
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    width: 100px;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 17px;
+    font-weight: bold;
+    border: none;
+    border-radius: 0.25rem;
+    background: none;
+    background-color: rgb(255, 255, 255);
+    color: rgb(145, 108, 137);
+}
+nav > button:focus{
+    outline: none;
+}
+.chatRoomListDiv > img{
+    /* opacity: 0.75; */
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+
+
+.chatRoomList{
+    display: flex;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.listImgSpan{
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.listContentDiv{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    position: absolute;
+    left: 67px;
+    right: 110px;
+}
+.listTimeSpan{
+    position: absolute;
+    right: 7px;
+    width: 100px;
+    display: flex;
+    justify-content: flex-end;
+    color: white;
+    font-size: 15px;
+}
+.listContentNm{
+    font-weight: bold;
+    margin-bottom: 7px;
+    color: white;
+}
+.listContentCont{
+    color: white;
+}

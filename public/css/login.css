@@ -1,0 +1,72 @@
+body{
+    height: 100vh;
+    margin: 0px;
+}
+body > div{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    background-color: rgb(145, 108, 137);
+    height: 300px;
+}
+::placeholder{
+    font-size: 20px;
+    color: rgb(192, 192, 192);
+}
+.logoSpan{
+    font-size: 60px;
+    font-weight: bold;
+    color: white;
+    background-color: rgb(145, 108, 137);
+    padding-bottom: 120px;
+}
+
+.loginForm{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    position: absolute;
+    top: 300px;
+    bottom: 0px;
+    padding-top: 40px;
+    width: 100%;
+}
+.loginFormInputSpan{
+    display: flex;
+    align-items: center;
+    width: 70%;
+    max-width: 800px;
+    padding: 12px;
+    margin-bottom: 20px;
+    font-size: 25px;
+    font-weight: bold;
+    color: rgb(145, 108, 137);
+    border: none;
+    border-radius: 2rem;
+    border: 2px solid rgb(145, 108, 137);
+}
+.loginFormInputSpan > i{
+    font-size: 25px;
+}
+.loginFormInput{
+    border: none;
+    background: none;
+    width: 100%;
+    font-size: 25px;
+}
+.loginFormInput:focus{
+    outline: none;
+}
+.loginFormBtn{
+    width: 150px;
+    margin-top: 20px;
+    padding: 12px;
+    font-size: 25px;
+    font-weight: bold;
+
+    color: white;
+    background-color: rgb(109, 46, 95);
+    border: none;
+    border-radius: 0.5rem;
+}

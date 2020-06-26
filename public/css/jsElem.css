@@ -1,0 +1,50 @@
+
+.rightChatDiv{
+    display: flex;
+    justify-content: flex-end;
+    margin: 5px;
+}
+.leftChatDiv{
+    display: flex;
+    justify-content: flex-start;
+    margin: 5px;
+}
+.rightChatDiv > .textspan{
+    background-color: rgb(226, 114, 198);
+}
+.leftChatDiv > div > .textspan{
+    background-color: rgb(77, 42, 68);
+}
+.leftChatDiv > span{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+}
+
+.textspan{
+    color: white;
+    padding: 5px;
+    border-radius: 0.5rem;
+}
+.timespan{
+    display: flex;
+    align-self: flex-end;
+    font-size: 13px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.oppntSpanDiv{
+    display: flex;
+    flex-direction: column;
+}
+.progileName{
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+}
+.progileImg{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
